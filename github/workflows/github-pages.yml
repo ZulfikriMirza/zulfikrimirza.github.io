@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build site
-      run: npm run dev  # Sesuaikan dengan perintah yang digunakan untuk membangun proyek Anda
+      run: npm run build  # Sesuaikan dengan perintah yang digunakan untuk membangun proyek Anda
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
