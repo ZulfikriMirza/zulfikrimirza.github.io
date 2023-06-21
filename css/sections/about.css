@@ -1,0 +1,176 @@
+.about-me {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.about-me__title {
+    font-family: 500px;
+    font-size: 32px;
+}
+
+
+.about-me__content {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    z-index: 5;
+    gap: 40px;
+}
+.about-me__description-experiences {
+    width: 650px;
+    padding-left: 80px;
+    
+}
+
+.about-me__description-experiences h3 {
+    font-weight: 500;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.about-me__description-experiences ul {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about-me__description-experiences li {
+    padding-bottom: 10px;
+}
+
+.about-me__description-skills ul {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about-me__description-skills h3 {
+    font-weight: 500;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.about-me__description-skills li {
+    padding-bottom: 10px;
+}
+
+.about-me__container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.about-me__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-me__contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+.about-me__contact .instagram img {
+    width: 50px;
+    height: 50px;
+}
+
+.about-me__contact-media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-me__contact .linkedln img {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-me {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__description-experiences {
+        width: 450px;
+        padding-left: 80px;
+        
+    }
+    
+    .about-me__description-experiences h3 {
+        font-weight: 500;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    
+    .about-me__description-experiences ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-me__description-experiences li {
+        padding-bottom: 10px;
+    }
+    
+    .about-me__description-skills ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-me__description-skills h3 {
+        font-weight: 500;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+
+    .about-me__content {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me__container { 
+        padding-left: 80px;
+    }
+
+    .about-me__description-experiences h3 {
+        font-weight: 500;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    
+    .about-me__description-experiences ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-me__description-experiences li {
+        padding-bottom: 10px;
+    }
+    
+    .about-me__description-skills ul {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-me__description-skills h3 {
+        font-weight: 500;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+}

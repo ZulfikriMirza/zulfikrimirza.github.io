@@ -1,0 +1,100 @@
+.last-project {
+    margin-top: 128px;
+
+    display: flex;
+
+
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.last-project__title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+}
+
+.last-project__catalogue {
+    margin-top: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+.last-project__card {
+    padding: 38px;
+    min-width: 260px;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 36px;
+    background: rgba(255, 253, 253);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.last-project__button {
+    width: fit-content;
+
+    padding: 20px 30px;
+    margin: 60px auto 0;
+
+    font-weight: 0;
+    font-size: 18px;
+    line-height: 23px;
+
+    font-family: "Plus Jakarta Sans" sans-serif;
+    color: #121212;
+
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 64px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.last-project__button p {
+    margin: 10px 10px 0 0;
+}
+
+.last-project__button img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .last-project {
+        margin-top: 60px;
+    }
+    .last-project__title {
+        font-size: 48px;
+    }
+    .last-project__card {
+        padding: 38px;
+        min-width: 200px;
+        height: fit-content;
+
+    }
+    
+    .last-project__button img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    
+    
+    }
+}

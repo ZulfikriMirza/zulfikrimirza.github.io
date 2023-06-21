@@ -1,0 +1,29 @@
+@import url("sections/header.css");
+@import url("sections/profile.css");
+@import url("sections/about.css");
+@import url("sections/project.css");
+@import url("sections/footer.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #040018;
+
+}
+
+.ps { 
+    color: #fff;
+    font-size: 8px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
