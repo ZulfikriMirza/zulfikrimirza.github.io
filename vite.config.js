@@ -1,6 +1,6 @@
 // vite.config.js
 export default {
-    base: '/',
+    base: '/zulfikrimirza.github.io/',
 
   };
   
